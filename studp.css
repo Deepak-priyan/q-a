@@ -1,0 +1,276 @@
+body{
+       
+    background-color:#DEDEDE;
+    margin:0%;
+    padding: 0%;
+}
+.logo{
+width: 100%;
+
+}
+.title{
+height: 100%;
+width: 100%;
+margin: 0%;
+padding: 0%;
+
+}
+
+
+.palate{ 
+
+width:90%;
+margin-left: 5%;
+margin-top: 5%;
+border-radius: 40px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+background: #FBF9F0;
+border: 3px solid #4B95DF;
+border-radius: 39px;
+gap:10px;
+
+}
+.tit{
+    background-color: #FCDF00;
+    width: 15%;
+    margin-top: 2%;
+    text-align: center;
+    border-radius: 10px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    
+}
+
+.qa{
+   
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.par{
+    border: 3px solid #4B95DF;
+    width: 100%;
+    text-align: center;
+    background-color:#d4d4d4;
+    word-wrap: break-word; 
+}
+.image{
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.image>img{
+    
+    width: 100%;
+    border: black solid 2px;
+}
+.opset{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.op_pr
+{
+    width: 90%;
+    text-align: center;
+}
+.op_inpr{
+    margin-top: 5%;
+    word-wrap: break-word;
+}
+.op_im
+{
+    border: #4B95DF solid 2px;
+    width: 200px;
+    height: 150px;
+    margin-bottom: 5%;
+}
+.op_inim{
+    width: 100%;
+    height: 100%;
+}
+.set{
+    width: 250px;
+    border-radius: 20px;
+}
+
+.set input{
+    width: 20px;
+    height: 20px;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.A{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1%;
+    border-radius: 20px;
+}
+#a{
+    background-color: rgb(220, 117, 70);
+}
+.B{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1%;
+    border-radius: 20px;
+}
+#b{
+    background-color: rgb(189, 156, 95);
+}
+.C{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1%;
+    border-radius: 20px;
+}
+#c{
+    background-color: aqua;
+}
+.D{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1%;
+    border-radius: 20px;
+}
+#d{
+    background-color: aquamarine;
+}
+@media(max-width:750px)
+{
+ .tit{
+    width:25%
+ }
+ .set{
+    width:200px;
+ }
+ .op_im{
+    width:150px;
+ }
+}
+@media(max-width:505px)
+{
+    .palate{
+        border-radius: 20px;
+    }
+    .tit{
+        width:30%;
+        height: 30px;
+        border-radius: 7px;
+        font-size: 20px;
+    }
+    .par{
+        font-size: 12px;
+    }
+  
+    .set{
+        
+        font-size: 12px;
+        border-radius: 10px;
+    }
+    .set input{
+        width: 10px;
+        height: 10px;
+        border-radius: 0%;
+    }
+    .opset{
+        justify-content: center;
+        gap: 10px;
+    }
+    .op_im{
+        width: 150px;
+        height: 100px;
+    }
+}
+@media(max-width:450px)
+{
+
+    .palate{
+        border-radius: 15px;
+    }
+    .tit{
+        width:30%;
+        height: 20px;
+        border-radius: 4px;
+        font-size: 15px;
+    }
+    .par{
+        font-size: 7px;
+    }
+    
+    .set{
+        width:150px
+    }
+    .op_im{
+        width: 100px;
+        height: 70px;
+    }
+}
+
+@media(max-width:345px)
+{
+
+    .palate{
+        border-radius: 15px;
+        gap: 5px;
+    }
+    .tit{
+        width:20%;
+        height: 15px;
+        border-radius: 2px;
+        font-size: 10px;
+    }
+    .par{
+        font-size: 7px;
+        border: 1px solid #4B95DF;
+    }
+     .opset{
+        align-items: flex-start;
+        
+     }
+    .set{
+        width:120px
+    }
+    .op_im{
+        width: 90px;
+        height: 70px;
+    }
+}
+@media(max-width:345px)
+{
+    .set{
+        width:100px
+    }
+    .op_im{
+        width: 80px;
+        height: 70px;
+    }
+}
